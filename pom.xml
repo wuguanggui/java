@@ -256,13 +256,13 @@
                         <!--tomcat类型 -->
                         <containerId>tomcat8x</containerId>
                         <!-- 指定tomcat路径 -->
-                        <home>/home/c0de8ug/software/apache-tomcat-8.0.28</home>
+                        <home>/home/wuguanggui/tomcat-8.5</home>
                         <timeout>300000</timeout>
                     </container>
                     <configuration>
                         <type>existing</type>
                         <!--指定tomcat路径 -->
-                        <home>/home/c0de8ug/software/apache-tomcat-8.0.28</home>
+                        <home>/home/wuguanggui/tomcat-8.5</home>
                     </configuration>
                 </configuration>
                 <executions>
