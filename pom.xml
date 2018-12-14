@@ -250,7 +250,7 @@
             <plugin>
                 <groupId>org.codehaus.cargo</groupId>
                 <artifactId>cargo-maven2-plugin</artifactId>
-                <version>1.4.18</version>
+                <version>1.4.9</version>
                 <configuration>
                     <container>
                         <!--tomcat类型 -->
