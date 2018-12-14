@@ -251,20 +251,6 @@
                 <groupId>org.codehaus.cargo</groupId>
                 <artifactId>cargo-maven2-plugin</artifactId>
                 <version>1.4.9</version>
-                <configuration>
-                    <container>
-                        <!--tomcat类型 -->
-                        <containerId>tomcat8x</containerId>
-                        <!-- 指定tomcat路径 -->
-                        <home>/home/wuguanggui/tomcat-8.5</home>
-                        <timeout>300000</timeout>
-                    </container>
-                    <configuration>
-                        <type>existing</type>
-                        <!--指定tomcat路径 -->
-                        <home>/home/wuguanggui/tomcat-8.5</home>
-                    </configuration>
-                </configuration>
                 <executions>
                     <execution>
                         <id>cargo-start</id>
